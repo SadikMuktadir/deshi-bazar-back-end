@@ -1,6 +1,7 @@
 export interface IProduct {
   image?: string;
   name: string;
+  description?:string
   price: number;
   rating: number;
   category?: 'Phone' | 'Computer';

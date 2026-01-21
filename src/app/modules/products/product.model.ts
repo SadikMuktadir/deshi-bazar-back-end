@@ -9,6 +9,9 @@ const productSchema = new Schema<IProduct>(
     name: {
       type: String,
     },
+    description: {
+      type: String,
+    },
     price: {
       type: Number,
     },

@@ -68,7 +68,7 @@ const updateProduct = async (req: Request, res: Response) => {
     console.log(error);
     res.status(500).send({
       success: false,
-      message: 'Product is not updated',
+      message: 'Product is not updated yet',
       error: error,
     });
   }
