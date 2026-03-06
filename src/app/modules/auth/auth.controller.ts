@@ -6,7 +6,7 @@ const registerUser = async (req: Request, res: Response) => {
   const result = await authService.registerUser(payload);
   res.status(201).send({
     success: true,
-    message: 'User created',
+    message: 'User created.....',
     token: result?.token,
     data: result?.user,
   });
